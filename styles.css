@@ -1,0 +1,148 @@
+body{
+    background-color: #000019;
+    font-family: 'Lilita One', sans-serif;
+    color: white;
+}
+
+.menu{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+
+}
+
+.menu_logo{
+    max-width: 150px;
+    border-radius: 80px;
+    
+}
+
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.menu_lista_item{
+    text-decoration: none;
+    font-size: 36px;
+    color: #e08a09;
+    font-family: 'Press Start 2P', system-ui;
+
+
+}
+
+.menu_curriculo{
+    background-color: #e08a09;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-family: 'Press Start 2P', system-ui;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+.banner{
+    background-image: url("https://phalarope-static-storage.s3.sa-east-1.amazonaws.com/dg/Img/2/45/1c48e7e09442d2d6b41d5b721e72bf23.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner_infos{
+    display: flex;   
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 70vh;
+    padding: 30px;
+    border-radius: 0 0 70px 70px;
+    background-color: rgba(0, 0, 0, 0.705);
+    
+    
+}
+
+
+.banner_infos_imagem{
+    max-width: 500px;
+    border: 2px solid white;
+    border-radius: 80px;
+
+}
+.banner_infos_nome{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 60px;
+    color: white;
+}
+
+.banner_infos_cargo{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 25px;
+    color: #e08a09;
+}
+
+.sobre{
+    max-width: 80vw;    
+    margin: 60px auto;
+    border-top: 10px solid #e08a09;
+    border-bottom: 10px solid #e08a09;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sobre_infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+
+.sobre_infos_titulo{
+    font-size: 50px;
+    font-family: 'Press Start 2P', system-ui;
+
+}
+
+.sobre_infos_texto{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
